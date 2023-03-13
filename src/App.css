@@ -63,3 +63,27 @@ h2{
     width: 150px;
     height: 70px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        background-color: #fff;
+        width: 300px;
+        padding: 2rem;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .amount-card{
+        width: 250px;
+        height: 130px;
+        background-color: #ffff3c;
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .input-box{
+        width: 310px;
+    }
+
+  }
